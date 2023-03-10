@@ -1,0 +1,54 @@
+{
+    "items": [
+        {
+            "name": 1,
+            "title": "Müzik",
+            "link": "https://www.example.com/muzik"
+        },
+        {
+            "id": 2,
+            "title": "Film",
+            "link": "https://www.example.com/film"
+        },
+        {
+            "id": 3,
+            "title": "Kitap",
+            "link": "https://www.example.com/kitap"
+        },
+        {
+            "id": 4,
+            "title": "Sanat",
+            "link": "https://www.example.com/sanat"
+        },
+        {
+            "id": 5,
+            "title": "Yemek",
+            "link": "https://www.example.com/yemek"
+        },
+        {
+            "id": 6,
+            "title": "Moda",
+            "link": "https://www.example.com/moda"
+        },
+        {
+            "id": 7,
+            "title": "Seyahat",
+            "link": "https://www.example.com/seyahat"
+        },
+        {
+            "id": 8,
+            "title": "Tarih",
+            "link": "https://www.example.com/tarih"
+        },
+        {
+            "id": 9,
+            "title": "Bilim",
+            "link": "https://www.example.com/bilim"
+        },
+        {
+            "id": 10,
+            "title": "Teknoloji",
+            "link": "https://www.example.com/teknoloji"
+        }
+    ]
+}

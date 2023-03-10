@@ -1,0 +1,49 @@
+.slider-menu {
+    background-color: #333;
+    color: #fff;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    left: -200px;
+    top: 0;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .slider-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slider-menu li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .slider-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .toggle-menu {
+    display: none;
+  }
+  
+  .slider-menu.open {
+    left: 0;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slider-menu {
+      left: -200px;
+    }
+  
+    .toggle-menu {
+      display: block;
+    }
+  
+    .slider-menu.open {
+      left: 0;
+    }
+  }
+  
