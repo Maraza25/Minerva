@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import { Drawer, useMediaQuery, IconButton, Button } from "@mui/material";
 
 import MenuIcon from "@mui/icons-material/Menu";
-import "./DrawerMenü.css";
 import { makeStyles } from "@material-ui/core/styles";
 import FormControl from "@material-ui/core/FormControl";
 import OutlinedInput from "@material-ui/core/OutlinedInput";
 import InputLabel from "@material-ui/core/InputLabel";
+
+import "./DrawerMenu.css";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -71,7 +72,7 @@ function DrawerMenu() {
   ];
 
   const buttonList = buttons.map((number) => (
-    <Button href="/abdhjsa" className="buttonn" variant="contained">
+    <Button className="drawer-button" variant="contained">
       {number.name}
     </Button>
   ));
@@ -79,9 +80,9 @@ function DrawerMenu() {
   const outlinedInputStyles = useOutlinedInputStyles();
   
   const list = () => (
-    <div className="drawerMenü">
+    <div className="drawerMenu">
       <div className="topics_Area">
-      <FormControl  size="small" margin="normal" className={classes.root} variant="outlined">
+      <FormControl size="small" margin="normal" className={classes.root} variant="outlined">
         <InputLabel className={classes.label} >Search</InputLabel>
         <OutlinedInput
           classes={outlinedInputStyles}
@@ -92,13 +93,13 @@ function DrawerMenu() {
         {buttonList}
       </div>
       <div className="controlArea">
-        <Button href="/topics/add" variant="contained">
+        <Button className="drawer-button" variant="contained">
           Konu Ekle
         </Button>
-        <Button href="/jsfbdjksbfk" variant="contained">
+        <Button className="drawer-button" variant="contained">
           Ayarlar
         </Button>
-        <Button href="/jsfbdjksbfk" variant="contained">
+        <Button className="drawer-button" variant="contained">
           Çıkış Yap
         </Button>
       </div>
