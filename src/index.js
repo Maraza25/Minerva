@@ -3,12 +3,11 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import DrawerMenu from "./DrawerMenü/DrawerMenü";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <DrawerMenu/>
+    <App/>
   </React.StrictMode>
 );
 

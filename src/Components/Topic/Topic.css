@@ -1,0 +1,20 @@
+.topic-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 240px;
+    background-color: #BFB7B7;
+    padding: 10px;
+  }
+  
+  
+  
+  
+
+@media only screen and (max-width: 700px){
+    .topic-container{
+        margin-left: 0px;
+        
+    }
+}

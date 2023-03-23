@@ -1,0 +1,59 @@
+.text-div {
+  box-sizing: border-box;
+  max-width: 600px;
+  width: 100%;
+  margin-top: 10px;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 1px 10px 1px 10px;
+}
+
+.text-div p,
+h2 {
+  background-color: #bfb7b7;
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.text-div p {
+  height: 100px;
+  overflow: auto;
+  width: auto;
+  flex: 1;
+  min-width: 200px;
+}
+.text-div p::-webkit-scrollbar {
+  background-color: rgba(255, 0, 0, 0);
+  width: 2px;
+}
+.text-div p::-webkit-scrollbar-button {
+  width: 5px;
+  height: 10px;
+  background-color: rgba(0, 255, 255, 0);
+}
+.text-div p::-webkit-scrollbar-thumb {
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.photo-div {
+}
+
+.photo-p-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo-p-div p {
+  height: 100px;
+  overflow: auto;
+  width: auto;
+  flex: 1;
+  min-width: 100px;
+  flex: 1;
+  align-self: stretch;
+}

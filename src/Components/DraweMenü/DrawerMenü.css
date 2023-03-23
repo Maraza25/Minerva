@@ -1,0 +1,77 @@
+.drawerMenü {
+  width: 240px;
+  height: 100vh;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+}
+
+.topics_Area {
+  background-color: #d9d9d9;
+  width: 100%;
+  flex-grow: 1;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.topics_Area a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80%;
+  background-color: #9d8e8e;
+}
+.topics_Area a:hover {
+  background-color: #4e4a4a;
+}
+.topics_Area::-webkit-scrollbar {
+  background-color: transparent;
+  width: 5px;
+}
+
+.topics_Area::-webkit-scrollbar-thumb {
+  background-color: #9d8e8e;
+  border-radius: 10px;
+}
+
+.topics_a {
+  margin-top: 20px;
+  background-color: rgb(23, 30, 30);
+  width: 200px;
+}
+
+.controlArea {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: #9d8e8e;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.controlArea a {
+  /* margine değerlerini lütfen aynı yapın */
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #4e4a4a;
+  background-color: #d9d9d9;
+  width: 80%;
+  margin-left: -5px;
+}
+.controlArea a:hover {
+  background-color: #bdbcbc;
+}
+
+
+.searchBar{
+
+  width: 80%;
+}
+
+
+
+
