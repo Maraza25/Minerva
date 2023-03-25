@@ -1,4 +1,4 @@
-.drawerMenü {
+.drawerMenu {
   width: 240px;
   height: 100vh;
   background-color: #d9d9d9;
@@ -16,16 +16,10 @@
   align-items: center;
 }
 
-
-.topics_Area a {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 80%;
-  background-color: #9d8e8e;
-}
 .topics_Area a:hover {
   background-color: #4e4a4a;
 }
+
 .topics_Area::-webkit-scrollbar {
   background-color: transparent;
   width: 5px;
@@ -34,12 +28,6 @@
 .topics_Area::-webkit-scrollbar-thumb {
   background-color: #9d8e8e;
   border-radius: 10px;
-}
-
-.topics_a {
-  margin-top: 20px;
-  background-color: rgb(23, 30, 30);
-  width: 200px;
 }
 
 .controlArea {
@@ -53,8 +41,9 @@
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
+
 .controlArea a {
-  /* margine değerlerini lütfen aynı yapın */
+  /* margin değerlerini lütfen aynı yapın */
   margin-top: 5px;
   margin-bottom: 5px;
   color: #4e4a4a;
@@ -62,16 +51,18 @@
   width: 80%;
   margin-left: -5px;
 }
+
 .controlArea a:hover {
   background-color: #bdbcbc;
 }
 
-
-.searchBar{
-
+.searchBar {
   width: 80%;
 }
 
-
-
-
+.drawer-button {
+  width: 80%;
+  margin-top: 5px !important;
+  margin-bottom: 5px !important;
+  background-color: #9d8e8e !important;
+}
