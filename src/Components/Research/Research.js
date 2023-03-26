@@ -59,28 +59,3 @@ function Research(props) {
 
 export default Research;
 
-// import React from "react";
-// import "./Research.css";
-
-// function Research(props) {
-//   const { image, title, description, imageUrl } = props;
-
-//   return (
-//     <div style={{ width: "100%" }}>
-//       {image ? (
-//         <div className="research-container">
-//           <div className="text-div">
-//             <h2>{title}</h2>
-//             <p>{description}</p>
-//           </div>
-//           <div className="image-div"></div>
-//         </div>
-//       ) : (
-//         <div className="research-container">
-//           <h2>{title}</h2>
-//           <p>{description}</p>
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
