@@ -6,10 +6,12 @@
   background-color: #d9d9d9;
   border-radius: 10px;
   padding: 1px 10px 1px 10px;
+  border: none;
 }
 
 .text-div p,
-h2 {
+h2,
+textarea {
   background-color: #bfb7b7;
   text-align: center;
   padding: 5px 10px 5px 10px;
@@ -18,42 +20,58 @@ h2 {
 }
 
 .text-div p {
+  outline: none ;
   height: 100px;
-  overflow: auto;
   width: auto;
   flex: 1;
   min-width: 200px;
-}
-.text-div p::-webkit-scrollbar {
-  background-color: rgba(255, 0, 0, 0);
-  width: 2px;
-}
-.text-div p::-webkit-scrollbar-button {
-  width: 5px;
-  height: 10px;
-  background-color: rgba(0, 255, 255, 0);
-}
-.text-div p::-webkit-scrollbar-thumb {
-  background-color: aliceblue;
-  border-radius: 10px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* kac satırdan sonra  3 nokta gelicek ona karar ver  */
+  -webkit-box-orient: vertical;
 }
 
-.photo-div {
+
+.text-div
+textarea {
+  outline: none ;
+  width: auto;
+  flex: 1;
+  min-width: 200px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* kac satırdan sonra  3 nokta gelicek ona karar ver  */
+  -webkit-box-orient: vertical;
 }
 
 .photo-p-div {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;;
   justify-content: center;
   align-items: center;
 }
 
 .photo-p-div p {
   height: 100px;
-  overflow: auto;
   width: auto;
   flex: 1;
   min-width: 100px;
   flex: 1;
   align-self: stretch;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+
+.photo-p-div p,textarea {
+  width: auto;
+  flex: 1;
+  min-width: 100px;
+  flex: 1;
+  align-self: stretch;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
 }

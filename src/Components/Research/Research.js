@@ -50,7 +50,7 @@ function Research(props) {
 
           </div>
 
-          <p>{description} </p>
+          <p className="resP" >{description} </p>
         </div>
       </div>
     );

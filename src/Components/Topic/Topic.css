@@ -17,6 +17,7 @@
   height: auto;
   background-color: blue;
   animation: moveDiv 0.3s ease-in-out;
+  z-index: 999;
 }
 
 @keyframes moveDiv {
@@ -72,3 +73,26 @@
   }
 }
 
+.button-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+
+.addResBtn {
+  background-color: #868484;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  transition: background-color 0.3s ease;
+}
+
+.addResBtn:hover {
+  background-color: #6e6660;
+}
